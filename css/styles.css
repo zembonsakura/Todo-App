@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+/*MENU*/
 .menu {
   background: #00b07c;
 
@@ -24,10 +25,38 @@
   color: #ffffff;
 }
 
+/* CREATE TASK */
 .section_create_task {
   display: flex;
   justify-content: flex-start;
   padding-left: 50px;
   margin-top: 30px;
-  border: 2px solid red;
+}
+
+.button_create {
+  background: #00b07c;
+  width: 137px;
+  height: 44px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-left: 13px;
+}
+
+.create_task {
+  width: 1050px;
+  height: 44px;
+  background: #ffffff;
+  border: 2px solid #03bf8a;
+  border-radius: 10px;
+  padding-left: 39px;
+}
+
+.create_task {
 }
