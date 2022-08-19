@@ -1,35 +1,3 @@
-/*variables*/
-:root {
-  --green1: #00b07c;
-  --green2: #03bf8a;
-  --withe: #ffffff;
-  --font: "Inter";
-  --green3: #3cd9a2;
-  --red: #b40030;
-}
-/*MENU*/
-.menu {
-  background: var(--green1);
-
-  height: 80px;
-
-  display: flex;
-
-  align-items: center;
-
-  padding-left: 50px;
-}
-
-.title {
-  font-family: var(--font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 36px;
-
-  color: var(--withe);
-}
-
 /* CREATE TASK */
 .section_create_task {
   display: flex;
@@ -108,33 +76,10 @@
 }
 
 .text_to_do {
-  font-family: "Inter";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #000000;
-}
-
-.line {
-  border-color: var(--green1);
-  margin: 0px 30px 36px 50px;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.textfooter {
-  margin-bottom: 36px;
-  text-align: center;
-  font-family: var(--font);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 27px;
-
-  color: #000000;
+  color: var(--black);
 }
